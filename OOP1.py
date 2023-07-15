@@ -40,8 +40,8 @@ class Bank:
     ROI = 4   # class Variable
 
     def __init__(self):
-        self.name = input("Enter Name: ")   # Instance Variable
-        self.id = int(input("Id: "))
+        self.name = "Manoj"   # Instance Variable
+        self.id = 0
         self.balance = 0
 
     def print_details(self):
@@ -60,6 +60,9 @@ class Bank:
     def change_ROI(cls):
         cls.ROI = 10
 
+    @staticmethod
+    def Information():
+        print("This is Information method under Bank class",Bank.ROI)
 
     # ROI ---> Calc. Interest
 

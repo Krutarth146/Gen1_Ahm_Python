@@ -12,7 +12,7 @@ class Alto():
         print("Alto Have Four Seats")
 
 
-# class Ferari :: public Alto
+# class Ferari : public Alto
 
 class Ferrari(Alto):
     def __init__(self):
